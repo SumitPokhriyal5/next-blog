@@ -34,7 +34,7 @@ export const getStaticProps=async(context)=>{
 const Blog = ({data}) => {
     // console.log(data)
   return (
-    <div>
+    <div className='feeds'>
         <h1>{data.title}</h1>
         <h3>{data.body}</h3>
     </div>
